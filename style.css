@@ -1,7 +1,147 @@
+body{
+
+    max-width: 90%;
+    margin:auto;
+    background-color: aqua;
+    background: linear-gradient(#1C3957, #C3D3E4);
+    background-image:url(image/tacos.jpg) ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+
+}
+header > h2 {
+    background-color: #FC0;
+    position: absolute;
+    top:200px;
+    left: 800px;
+    
+
+}
+
+blockquote {
+
+    font-style: italic;
+}
+
+.q1{
+
+    
+    border-left:3px solid firebrick;
+    background-color:#D3D3D3;
+    width: 80%;
+    font-size: 160%;
+    margin:200px;
+    border-spacing: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+    
+    
+}
+
+.b2 {
+
+    display: block;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+
 p { 
 
     font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: ; #3a3a3a;
+    letter-spacing: 2px;
+
+}
+
+.p2
+{ 
+    letter-spacing: 2px;
+    color: brown;
+
+}
+/* Config des liens visité/non visité */
+a:link {
+
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color:blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.bien::after {
+
+    content: url(image/bien.png);
+    position:relative;
+    
+} 
+
+.pas {
+
+    content:url(image/mal.png);
+    position:relative;
+}
+
+.cat {
+
+    content:url(image/chat.png);
+    position:relative;
+}
+
+    
+
+.good {
+
+    color:green;
+}
+
+.bad {
+    
+    color:red;
+}
+
+.farmer {
+
+    border-left: 3px solid green;
+}
+
+.neighbors {
+
+    border-left: 3px solid red;
+}
+
+table {
+    border: 1px solid
+}
+
+tr:nth-child(2n+1) {
+
+    background-color: white;
+}
+
+tr:nth-child(2n) {
+
+    background-color: grey;
 
 }
