@@ -10,7 +10,7 @@ body{
     margin:auto;
     background-color: aqua;
     background: linear-gradient(#1C3957, #C3D3E4);
-    background-image:url(image/tacos.jpg) ;
+    background-image:url(image/fond.jpg) ;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
