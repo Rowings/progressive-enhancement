@@ -160,6 +160,16 @@ tr:nth-child(2n) {
     background-color: grey;
 
 }
+.notification {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid greenyellow;
+    background-color: bisque;
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    text-align: center;
 
 footer {
 
